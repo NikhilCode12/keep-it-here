@@ -6,3 +6,16 @@ body{
     background: #000;
     color: #fff;
 }
+
+nav .list{
+    margin: 0 60px;
+}
+
+
+nav .list:hover{
+    color: rgb(148,163,184);
+}
+
+.lks-social{
+    margin: 2px 20px;
+}
