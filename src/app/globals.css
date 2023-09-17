@@ -1,21 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:wght@500&display=swap');
+
 
 body{
     background: #000;
-    color: #fff;
+    color: rgb(174, 195, 174);
 }
 
 nav .list{
     margin: 0 60px;
 }
 
+.logo{
+    font-family: 'Fuggles', cursive;
+    /* font-family: 'Montserrat', sans-serif;  */
+}
+
 
 nav .list:hover{
-    color: rgb(148,163,184);
+    color: rgb(174, 195, 174,0.8);
 }
 
 .lks-social{
     margin: 2px 20px;
+}
+
+.links-s{
+    color: rgb(174, 195, 174);
+}
+
+.links-s:hover{
+    color: rgb(174, 195, 174,0.8);
 }
