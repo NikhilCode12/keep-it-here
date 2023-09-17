@@ -20,7 +20,7 @@ function Header({}: Props) {
         transition={{
           duration: 0.6
         }}
-        href="/" className='mt-[5px] ml-4 text-[1.4rem] font-light text-[#AEC3AE] font-semibold italic'><span className='text-[#f2c317]'>Keep-it</span> {" "} here.</motion.a>
+        href="/" className='mt-[5px] ml-4 text-[1.4rem] font-light text-[#AEC3AE] font-semibold italic'><span className='text-[#f2c317]'>{"Keep-it"}</span> {" "} {"here."}</motion.a>
         <nav className='mt-[10px] m-auto'>
             <ul className='flex flex-row'>
                 <Link href={"#documents"}><motion.li initial={{opacity:0,y:-200}} animate={{opacity:1,y:0}}
