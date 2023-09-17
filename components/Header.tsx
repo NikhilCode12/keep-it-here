@@ -36,7 +36,8 @@ function Header({}: Props) {
           <Link target='_blank' href={"https://github.com/NikhilCode12"} className='lks-social'><AiFillGithub   className='w-6 h-6 links-s'/></Link>
           <Link target='_blank' href={"https://www.linkedin.com/in/nikhil-sharma-41a287226"} className='lks-social'><AiFillLinkedin className='w-6 h-6 links-s'/></Link>
           <Link target='_blank' href={"https://twitter.com/Sharma_Nikh12"} className='lks-social'><AiFillTwitterCircle className='w-6 h-6 links-s'/></Link>
-          <Link target='_blank' href={"https://NikhilCode12.github.io"} className='lks-social'><AiOutlineShareAlt className='w-6 h-6 links-s'/></Link>
+          <Link target='_blank' href={""} className='lks-social'><AiOutlineShareAlt className='w-6 h-6 links-s'/></Link>
+          {/* <WhatsappShareButton className='w-6 h-6 links-s'/> */}
         </motion.ul>
     </div>
   )
