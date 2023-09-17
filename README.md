@@ -1,5 +1,4 @@
 <h1 align="center" id="title">Keep-it here: Your Personal Digital Vault 🚀</h1>
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 <p align="center"><img src="https://github.com/NikhilCode12/keep-it-here/assets/94921824/22cb431c-97e5-49d9-be85-4dbb45f3c571" alt="project-image"></p>
 
@@ -27,3 +26,32 @@ Here're some of the project's best features:
 * <b>File Preview: </b>Quickly preview documents and videos without the need for downloads, streamlining the search for specific content.
 
 * <b>Multi-Device Accessibility: </b>Access your stored data from various devices with an internet connection, ensuring flexibility and convenience in your digital life.
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
