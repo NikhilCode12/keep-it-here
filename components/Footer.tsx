@@ -6,7 +6,7 @@ type Props = {}
 
 function Footer({}: Props) {
   return (
-    <footer className='uppercase tracking-[4px] text-sm absolute bottom-1 left-[38%]'>
+    <footer className='uppercase tracking-[4px] text-xs absolute bottom-1 left-[39%]'>
         <motion.div 
           initial = {{opacity: 0,}}
           animate = {{opacity: 1,}}
