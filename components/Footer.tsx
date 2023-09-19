@@ -12,7 +12,7 @@ function Footer({}: Props) {
           animate = {{opacity: 1,}}
           transition = {{duration: 1}}
         >
-          {"Created By"} <Link href={"https://github.com/NikhilCode12"} className='font-semibold hover:text-[#f29a17]'>
+          {"Created By"} <Link href={"https://github.com/NikhilCode12"} target='_blank' className='font-semibold hover:text-[#f29a17]'>
           {"Nikhil Sharma"}</Link>
         </motion.div>
     </footer>
