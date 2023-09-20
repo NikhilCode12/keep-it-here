@@ -76,7 +76,7 @@ nav .list:hover{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 300px;
+    min-height: 280px;
     z-index: 100;
 }
 
@@ -87,6 +87,12 @@ nav .list:hover{
 
     .css-3d-cube{
         position: sticky;
-        height: 550px;
+        min-height: 550px;
+    }
+}
+
+@media (min-width: 320px) and (max-width:767px){
+    .css-3d.cube{
+        height: 100vh;
     }
 }
