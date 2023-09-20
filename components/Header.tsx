@@ -34,11 +34,11 @@ function Header({}: Props) {
             </ul>
         </nav>
         <motion.ul initial={{opacity:0}} animate={{opacity:1}}
-                transition={{duration:1.4}} className='flex flex-row mt-2 m-auto md:mt-2 md:m-0'>
-          <Link target='_blank' href={"https://github.com/NikhilCode12"} className='lks-social'><AiFillGithub   className='w-6 h-6 links-s'/></Link>
-          <Link target='_blank' href={"https://www.linkedin.com/in/nikhil-sharma-41a287226"} className='lks-social'><AiFillLinkedin className='w-6 h-6 links-s'/></Link>
-          <Link target='_blank' href={"https://twitter.com/Sharma_Nikh12"} className='lks-social'><AiFillTwitterCircle className='w-6 h-6 links-s'/></Link>
-          <Link target='_blank' href={"https://api/auth/login"} className='lks-social '><CgProfile className='w-6 h-6 links-p'/></Link>
+                transition={{duration:1.4}} className='flex flex-row mt-1 m-auto md:mt-2 md:m-0'>
+          <Link target='_blank' href={"https://github.com/NikhilCode12"} className='lks-social gt'><AiFillGithub   className='w-6 h-6 links-s'/></Link>
+          <Link target='_blank' href={"https://www.linkedin.com/in/nikhil-sharma-41a287226"} className='lks-social ld'><AiFillLinkedin className='w-6 h-6 links-s'/></Link>
+          <Link target='_blank' href={"https://twitter.com/Sharma_Nikh12"} className='lks-social tt'><AiFillTwitterCircle className='w-6 h-6 links-s'/></Link>
+          <Link target='_blank' href={"https://api/auth/login"} className='lks-social login-menu'><CgProfile className='w-6 h-6 links-p'/></Link>
         </motion.ul>
     </div>
   )
