@@ -6,14 +6,15 @@ import Footer from '../../components/Footer'
 
 export default function Home() {
   return (
-    <div className='h-full w-full'>
+    <div>
       <Header />
 
-      <section>
+      <section className='mt-1 md:mt-4'>
         <Hero />
       </section>
 
-      <Footer />
+      {/* Footer is not loaded right now! */}
+      {/* <Footer /> */}
     </div>
   )
 }
