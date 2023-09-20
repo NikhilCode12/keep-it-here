@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Keep-it here: Your Personal Digital Vault 🚀</h1>
 
-<p align="center"><img src="https://github.com/NikhilCode12/keep-it-here/assets/94921824/22cb431c-97e5-49d9-be85-4dbb45f3c571" alt="project-image"></p>![image](https://github.com/NikhilCode12/keep-it-here/assets/94921824/336b6d86-7eeb-455b-91cd-b421e4ed82af)
+<p align="center"><img src="https://github.com/NikhilCode12/keep-it-here/assets/94921824/22cb431c-97e5-49d9-be85-4dbb45f3c571" alt="project-image"></p>
 
 ## Technologies Used
 
